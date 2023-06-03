@@ -1,3 +1,4 @@
+# O(n2) 방식
 def solution(nums, target):
     nums = sorted(nums)
     answer = [0] * 2 # 답이 없으면 [0, 0] 출력이기 때문에 이렇게 초기화 함

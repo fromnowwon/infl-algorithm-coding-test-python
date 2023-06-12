@@ -1,3 +1,4 @@
+# 시뮬레이션: 어떤 개체를 이동시키는 알고리즘
 def solution(nums):
     answer = 0
     n = len(nums)

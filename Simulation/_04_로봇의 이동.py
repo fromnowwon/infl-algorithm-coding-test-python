@@ -11,7 +11,8 @@ def solution(moves):
         elif c == 'R':
             d = (d + 1) % 4
         elif c == 'L':
-            d = (d - 1) % 4
+            # d = (d - 1) % 4
+            d = (d + 3) % 4
 
     return [x, y]
 
